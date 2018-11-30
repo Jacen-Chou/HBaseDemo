@@ -1,0 +1,2348 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Fri Nov 30 11:55:54 CST 2018<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.Groups category">org.apache.hadoop.security.Groups</td>
+<td title="Message"> Creating new Groups object</td>
+</tr>
+
+<tr>
+<td>326</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.util.NativeCodeLoader category">org.apache.hadoop.util.NativeCodeLoader</td>
+<td title="Message">Trying to load the custom-built native-hadoop library...</td>
+</tr>
+
+<tr>
+<td>364</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.util.NativeCodeLoader category">org.apache.hadoop.util.NativeCodeLoader</td>
+<td title="Message">Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path</td>
+</tr>
+
+<tr>
+<td>364</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.util.NativeCodeLoader category">org.apache.hadoop.util.NativeCodeLoader</td>
+<td title="Message">java.library.path=C:\Program Files\Java\jdk1.7.0_17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/lib/amd64;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jdk1.7.0_17\bin;C:\Program Files\Java\jdk1.7.0_17\jre\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\MATLAB\R2012b\runtime\win64;C:\Program Files\MATLAB\R2012b\bin;C:\Program Files\nodejs\;C:\Program Files\NOX\Nox\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\Users\admin\Anaconda3\Library\bin;C:\Program Files (x86)\WinSCP\;E:\hadoop-2.7.7;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\admin\AppData\Roaming\npm;C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\;;C:\Program Files\Docker Toolbox;C:\Program Files\Java\eclipse;;.</td>
+</tr>
+
+<tr>
+<td>364</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>WARN</strong></font></td>
+<td title="org.apache.hadoop.util.NativeCodeLoader category">org.apache.hadoop.util.NativeCodeLoader</td>
+<td title="Message">Unable to load native-hadoop library for your platform... using builtin-java classes where applicable</td>
+</tr>
+
+<tr>
+<td>513</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.util.PerformanceAdvisory category">org.apache.hadoop.util.PerformanceAdvisory</td>
+<td title="Message">Falling back to shell based</td>
+</tr>
+
+<tr>
+<td>513</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback category">org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback</td>
+<td title="Message">Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping</td>
+</tr>
+
+<tr>
+<td>1702</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.Groups category">org.apache.hadoop.security.Groups</td>
+<td title="Message">Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000</td>
+</tr>
+
+<tr>
+<td>2653</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.metrics2.lib.MutableMetricsFactory category">org.apache.hadoop.metrics2.lib.MutableMetricsFactory</td>
+<td title="Message">field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of successful kerberos logins and latency (milliseconds)], always=false, type=DEFAULT, sampleName=Ops)</td>
+</tr>
+
+<tr>
+<td>2713</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.metrics2.lib.MutableMetricsFactory category">org.apache.hadoop.metrics2.lib.MutableMetricsFactory</td>
+<td title="Message">field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of failed kerberos logins and latency (milliseconds)], always=false, type=DEFAULT, sampleName=Ops)</td>
+</tr>
+
+<tr>
+<td>2713</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.metrics2.lib.MutableMetricsFactory category">org.apache.hadoop.metrics2.lib.MutableMetricsFactory</td>
+<td title="Message">field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[GetGroups], always=false, type=DEFAULT, sampleName=Ops)</td>
+</tr>
+
+<tr>
+<td>2715</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.metrics2.impl.MetricsSystemImpl category">org.apache.hadoop.metrics2.impl.MetricsSystemImpl</td>
+<td title="Message">UgiMetrics, User and group related metrics</td>
+</tr>
+
+<tr>
+<td>3443</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.authentication.util.KerberosName category">org.apache.hadoop.security.authentication.util.KerberosName</td>
+<td title="Message">Kerberos krb5 configuration not found, setting default realm to empty</td>
+</tr>
+
+<tr>
+<td>3484</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">hadoop login</td>
+</tr>
+
+<tr>
+<td>3484</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">hadoop login commit</td>
+</tr>
+
+<tr>
+<td>3549</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">using local user:NTUserPrincipal: admin</td>
+</tr>
+
+<tr>
+<td>3550</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">Using user: &quot;NTUserPrincipal: admin&quot; with name admin</td>
+</tr>
+
+<tr>
+<td>3550</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">User entry: &quot;admin&quot;</td>
+</tr>
+
+<tr>
+<td>3550</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">Assuming keytab is managed externally since logged in from subject.</td>
+</tr>
+
+<tr>
+<td>3550</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">UGI loginUser:admin (auth:SIMPLE)</td>
+</tr>
+
+<tr>
+<td>8776</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper category">org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper</td>
+<td title="Message">Process identifier=hconnection-0x55a32acc connecting to ZooKeeper ensemble=62f169f8d9d1:2181</td>
+</tr>
+
+<tr>
+<td>8820</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT</td>
+</tr>
+
+<tr>
+<td>8821</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:host.name=DESKTOP-LNH6VC9</td>
+</tr>
+
+<tr>
+<td>8821</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.version=1.7.0_17</td>
+</tr>
+
+<tr>
+<td>8821</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.vendor=Oracle Corporation</td>
+</tr>
+
+<tr>
+<td>8821</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.home=C:\Program Files\Java\jdk1.7.0_17\jre</td>
+</tr>
+
+<tr>
+<td>8822</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.class.path=E:\JavaProjects\HBaseTest\bin;E:\hadoop-2.7.7\share\hadoop\yarn\lib\zookeeper-3.4.6.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\zookeeper-3.4.6-tests.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\xz-1.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\stax-api-1.0-2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\servlet-api-2.5.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\protobuf-java-2.5.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\netty-3.6.2.Final.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\log4j-1.2.17.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\leveldbjni-all-1.8.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jsr305-3.0.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jetty-util-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jetty-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jettison-1.1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-server-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-json-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-guice-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-core-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-client-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jaxb-impl-2.2.3-1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jaxb-api-2.2.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\javax.inject-1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jackson-xc-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jackson-mapper-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jackson-jaxrs-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jackson-core-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\guice-servlet-3.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\guice-3.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\guava-11.0.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-logging-1.1.3.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-lang-2.6.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-io-2.4.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-compress-1.4.1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-collections-3.2.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-codec-1.4.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-cli-1.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\asm-3.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\aopalliance-1.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\activation-1.1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-web-proxy-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-sharedcachemanager-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-resourcemanager-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-nodemanager-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-common-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-applicationhistoryservice-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-registry-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-common-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-client-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-applications-unmanaged-am-launcher-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-applications-distributedshell-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-api-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\xmlenc-0.52.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\xml-apis-1.3.04.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\xercesImpl-2.9.1.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\servlet-api-2.5.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\protobuf-java-2.5.0.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\netty-all-4.0.23.Final.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\netty-3.6.2.Final.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\log4j-1.2.17.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\leveldbjni-all-1.8.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jsr305-3.0.0.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jetty-util-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jetty-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jersey-server-1.9.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jersey-core-1.9.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jackson-mapper-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jackson-core-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\htrace-core-3.1.0-incubating.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\guava-11.0.2.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-logging-1.1.3.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-lang-2.6.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-io-2.4.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-daemon-1.0.13.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-codec-1.4.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-cli-1.2.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\asm-3.2.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\hadoop-hdfs-nfs-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\hadoop-hdfs-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\xz-1.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\snappy-java-1.0.4.1.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\protobuf-java-2.5.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\paranamer-2.3.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\netty-3.6.2.Final.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\log4j-1.2.17.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\leveldbjni-all-1.8.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\junit-4.11.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jersey-server-1.9.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jersey-guice-1.9.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jersey-core-1.9.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\javax.inject-1.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jackson-mapper-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jackson-core-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\hamcrest-core-1.3.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\hadoop-annotations-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\guice-servlet-3.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\guice-3.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\commons-io-2.4.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\commons-compress-1.4.1.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\avro-1.7.4.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\asm-3.2.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\aopalliance-1.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-shuffle-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-jobclient-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-hs-plugins-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-hs-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-core-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-common-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-app-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\zookeeper-3.4.6.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\xz-1.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\xmlenc-0.52.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\stax-api-1.0-2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\snappy-java-1.0.4.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\slf4j-log4j12-1.7.10.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\slf4j-api-1.7.10.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\servlet-api-2.5.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\protobuf-java-2.5.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\paranamer-2.3.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\netty-3.6.2.Final.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\mockito-all-1.8.5.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\log4j-1.2.17.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\junit-4.11.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jsr305-3.0.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jsp-api-2.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jsch-0.1.54.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jetty-util-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jetty-sslengine-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jetty-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jettison-1.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jets3t-0.9.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jersey-server-1.9.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jersey-json-1.9.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jersey-core-1.9.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jaxb-impl-2.2.3-1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jaxb-api-2.2.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\java-xmlbuilder-0.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jackson-xc-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jackson-mapper-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jackson-jaxrs-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jackson-core-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\httpcore-4.2.5.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\httpclient-4.2.5.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\htrace-core-3.1.0-incubating.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\hamcrest-core-1.3.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\hadoop-auth-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\hadoop-annotations-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\guava-11.0.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\gson-2.2.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\curator-recipes-2.7.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\curator-framework-2.7.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\curator-client-2.7.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-net-3.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-math3-3.1.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-logging-1.1.3.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-lang-2.6.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-io-2.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-httpclient-3.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-digester-1.8.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-configuration-1.6.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-compress-1.4.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-collections-3.2.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-codec-1.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-cli-1.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-beanutils-core-1.8.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-beanutils-1.7.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\avro-1.7.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\asm-3.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\api-util-1.0.0-M20.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\api-asn1-api-1.0.0-M20.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\apacheds-kerberos-codec-2.0.0-M15.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\apacheds-i18n-2.0.0-M15.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\activation-1.1.jar;E:\hadoop-2.7.7\share\hadoop\common\hadoop-nfs-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\common\hadoop-common-2.7.7.jar;E:\hbase-1.4.8\lib\activation-1.1.jar;E:\hbase-1.4.8\lib\apacheds-i18n-2.0.0-M15.jar;E:\hbase-1.4.8\lib\apacheds-kerberos-codec-2.0.0-M15.jar;E:\hbase-1.4.8\lib\api-asn1-api-1.0.0-M20.jar;E:\hbase-1.4.8\lib\api-util-1.0.0-M20.jar;E:\hbase-1.4.8\lib\asm-3.1.jar;E:\hbase-1.4.8\lib\avro-1.7.7.jar;E:\hbase-1.4.8\lib\commons-beanutils-1.7.0.jar;E:\hbase-1.4.8\lib\commons-beanutils-core-1.8.0.jar;E:\hbase-1.4.8\lib\commons-cli-1.2.jar;E:\hbase-1.4.8\lib\commons-codec-1.9.jar;E:\hbase-1.4.8\lib\commons-collections-3.2.2.jar;E:\hbase-1.4.8\lib\commons-compress-1.4.1.jar;E:\hbase-1.4.8\lib\commons-configuration-1.6.jar;E:\hbase-1.4.8\lib\commons-daemon-1.0.13.jar;E:\hbase-1.4.8\lib\commons-digester-1.8.jar;E:\hbase-1.4.8\lib\commons-el-1.0.jar;E:\hbase-1.4.8\lib\commons-httpclient-3.1.jar;E:\hbase-1.4.8\lib\commons-io-2.4.jar;E:\hbase-1.4.8\lib\commons-lang-2.6.jar;E:\hbase-1.4.8\lib\commons-logging-1.2.jar;E:\hbase-1.4.8\lib\commons-math-2.2.jar;E:\hbase-1.4.8\lib\commons-math3-3.1.1.jar;E:\hbase-1.4.8\lib\commons-net-3.1.jar;E:\hbase-1.4.8\lib\curator-client-2.7.1.jar;E:\hbase-1.4.8\lib\curator-framework-2.7.1.jar;E:\hbase-1.4.8\lib\curator-recipes-2.7.1.jar;E:\hbase-1.4.8\lib\disruptor-3.3.0.jar;E:\hbase-1.4.8\lib\findbugs-annotations-1.3.9-1.jar;E:\hbase-1.4.8\lib\gson-2.2.4.jar;E:\hbase-1.4.8\lib\guava-12.0.1.jar;E:\hbase-1.4.8\lib\hadoop-annotations-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-auth-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-client-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-common-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-hdfs-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-app-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-common-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-core-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-jobclient-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-shuffle-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-yarn-api-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-yarn-client-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-yarn-common-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-yarn-server-common-2.7.4.jar;E:\hbase-1.4.8\lib\hbase-annotations-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-annotations-1.4.8-tests.jar;E:\hbase-1.4.8\lib\hbase-client-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-common-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-common-1.4.8-tests.jar;E:\hbase-1.4.8\lib\hbase-examples-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-external-blockcache-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-hadoop2-compat-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-hadoop-compat-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-it-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-it-1.4.8-tests.jar;E:\hbase-1.4.8\lib\hbase-metrics-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-metrics-api-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-prefix-tree-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-procedure-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-protocol-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-resource-bundle-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-rest-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-rsgroup-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-server-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-server-1.4.8-tests.jar;E:\hbase-1.4.8\lib\hbase-shell-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-thrift-1.4.8.jar;E:\hbase-1.4.8\lib\htrace-core-3.1.0-incubating.jar;E:\hbase-1.4.8\lib\httpclient-4.5.2.jar;E:\hbase-1.4.8\lib\httpcore-4.4.4.jar;E:\hbase-1.4.8\lib\jackson-core-asl-1.9.13.jar;E:\hbase-1.4.8\lib\jackson-jaxrs-1.9.13.jar;E:\hbase-1.4.8\lib\jackson-mapper-asl-1.9.13.jar;E:\hbase-1.4.8\lib\jackson-xc-1.9.13.jar;E:\hbase-1.4.8\lib\jamon-runtime-2.4.1.jar;E:\hbase-1.4.8\lib\jasper-compiler-5.5.23.jar;E:\hbase-1.4.8\lib\jasper-runtime-5.5.23.jar;E:\hbase-1.4.8\lib\jaxb-api-2.2.2.jar;E:\hbase-1.4.8\lib\jaxb-impl-2.2.3-1.jar;E:\hbase-1.4.8\lib\jcodings-1.0.8.jar;E:\hbase-1.4.8\lib\jersey-client-1.9.jar;E:\hbase-1.4.8\lib\jersey-core-1.9.jar;E:\hbase-1.4.8\lib\jersey-json-1.9.jar;E:\hbase-1.4.8\lib\jersey-server-1.9.jar;E:\hbase-1.4.8\lib\jettison-1.3.3.jar;E:\hbase-1.4.8\lib\jetty-6.1.26.jar;E:\hbase-1.4.8\lib\jetty-sslengine-6.1.26.jar;E:\hbase-1.4.8\lib\jetty-util-6.1.26.jar;E:\hbase-1.4.8\lib\joni-2.1.2.jar;E:\hbase-1.4.8\lib\jruby-complete-1.6.8.jar;E:\hbase-1.4.8\lib\jsch-0.1.54.jar;E:\hbase-1.4.8\lib\jsp-2.1-6.1.14.jar;E:\hbase-1.4.8\lib\jsp-api-2.1-6.1.14.jar;E:\hbase-1.4.8\lib\junit-4.12.jar;E:\hbase-1.4.8\lib\leveldbjni-all-1.8.jar;E:\hbase-1.4.8\lib\libthrift-0.9.3.jar;E:\hbase-1.4.8\lib\log4j-1.2.17.jar;E:\hbase-1.4.8\lib\metrics-core-2.2.0.jar;E:\hbase-1.4.8\lib\metrics-core-3.1.2.jar;E:\hbase-1.4.8\lib\netty-all-4.1.8.Final.jar;E:\hbase-1.4.8\lib\paranamer-2.3.jar;E:\hbase-1.4.8\lib\protobuf-java-2.5.0.jar;E:\hbase-1.4.8\lib\servlet-api-2.5-6.1.14.jar;E:\hbase-1.4.8\lib\slf4j-api-1.7.7.jar;E:\hbase-1.4.8\lib\slf4j-log4j12-1.7.10.jar;E:\hbase-1.4.8\lib\snappy-java-1.0.5.jar;E:\hbase-1.4.8\lib\spymemcached-2.11.6.jar;E:\hbase-1.4.8\lib\xmlenc-0.52.jar;E:\hbase-1.4.8\lib\xz-1.0.jar;E:\hbase-1.4.8\lib\zookeeper-3.4.10.jar</td>
+</tr>
+
+<tr>
+<td>8824</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.library.path=C:\Program Files\Java\jdk1.7.0_17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/lib/amd64;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jdk1.7.0_17\bin;C:\Program Files\Java\jdk1.7.0_17\jre\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\MATLAB\R2012b\runtime\win64;C:\Program Files\MATLAB\R2012b\bin;C:\Program Files\nodejs\;C:\Program Files\NOX\Nox\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\Users\admin\Anaconda3\Library\bin;C:\Program Files (x86)\WinSCP\;E:\hadoop-2.7.7;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\admin\AppData\Roaming\npm;C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\;;C:\Program Files\Docker Toolbox;C:\Program Files\Java\eclipse;;.</td>
+</tr>
+
+<tr>
+<td>8824</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.io.tmpdir=C:\Users\admin\AppData\Local\Temp\</td>
+</tr>
+
+<tr>
+<td>8824</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.compiler=&lt;NA&gt;</td>
+</tr>
+
+<tr>
+<td>8825</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:os.name=Windows 8</td>
+</tr>
+
+<tr>
+<td>8825</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:os.arch=amd64</td>
+</tr>
+
+<tr>
+<td>8825</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:os.version=6.2</td>
+</tr>
+
+<tr>
+<td>8825</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:user.name=admin</td>
+</tr>
+
+<tr>
+<td>8825</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:user.home=C:\Users\admin</td>
+</tr>
+
+<tr>
+<td>8825</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:user.dir=E:\JavaProjects\HBaseTest</td>
+</tr>
+
+<tr>
+<td>8827</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Initiating client connection, connectString=62f169f8d9d1:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@7c698adc</td>
+</tr>
+
+<tr>
+<td>8835</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">zookeeper.disableAutoWatchReset is false</td>
+</tr>
+
+<tr>
+<td>9391</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Opening socket connection to server 62f169f8d9d1/202.204.62.145:2181. Will not attempt to authenticate using SASL (unknown error)</td>
+</tr>
+
+<tr>
+<td>9405</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Socket connection established to 62f169f8d9d1/202.204.62.145:2181, initiating session</td>
+</tr>
+
+<tr>
+<td>9406</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Session establishment request sent on 62f169f8d9d1/202.204.62.145:2181</td>
+</tr>
+
+<tr>
+<td>9499</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Session establishment complete on server 62f169f8d9d1/202.204.62.145:2181, sessionid = 0x16762c08b730006, negotiated timeout = 90000</td>
+</tr>
+
+<tr>
+<td>9501</td>
+<td title="main-EventThread thread">main-EventThread</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher category">org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher</td>
+<td title="Message">hconnection-0x55a32acc0x0, quorum=62f169f8d9d1:2181, baseZNode=/hbase Received ZooKeeper Event, type=None, state=SyncConnected, path=null</td>
+</tr>
+
+<tr>
+<td>9503</td>
+<td title="main-EventThread thread">main-EventThread</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher category">org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher</td>
+<td title="Message">hconnection-0x55a32acc-0x16762c08b730006 connected</td>
+</tr>
+
+<tr>
+<td>9514</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b730006, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,421,0  request:: '/hbase/hbaseid,F  response:: s{178,388,1543401801703,1543550052146,3,0,0,0,67,0,178} </td>
+</tr>
+
+<tr>
+<td>9522</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b730006, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,421,0  request:: '/hbase/hbaseid,F  response:: #ffffffff000146d61737465723a31363030306553531fffffffc03effffffb7ffffffd850425546a2466663139313336612d343865312d346633302d623837342d643163313031383762373464,s{178,388,1543401801703,1543550052146,3,0,0,0,67,0,178} </td>
+</tr>
+
+<tr>
+<td>12745</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.logging.InternalLoggerFactory category">io.netty.util.internal.logging.InternalLoggerFactory</td>
+<td title="Message">Using SLF4J as the default logging framework</td>
+</tr>
+
+<tr>
+<td>12779</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.ResourceLeakDetector category">io.netty.util.ResourceLeakDetector</td>
+<td title="Message">-Dio.netty.leakDetectionLevel: simple</td>
+</tr>
+
+<tr>
+<td>12930</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Buffer.address: available</td>
+</tr>
+
+<tr>
+<td>12930</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.theUnsafe: available</td>
+</tr>
+
+<tr>
+<td>12930</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.copyMemory: available</td>
+</tr>
+
+<tr>
+<td>12931</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Bits.unaligned: true</td>
+</tr>
+
+<tr>
+<td>12932</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Platform: Windows</td>
+</tr>
+
+<tr>
+<td>12936</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Java version: 7</td>
+</tr>
+
+<tr>
+<td>12936</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noUnsafe: false</td>
+</tr>
+
+<tr>
+<td>12936</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">sun.misc.Unsafe: available</td>
+</tr>
+
+<tr>
+<td>12937</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noJavassist: false</td>
+</tr>
+
+<tr>
+<td>12941</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Javassist: unavailable</td>
+</tr>
+
+<tr>
+<td>12941</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.</td>
+</tr>
+
+<tr>
+<td>12942</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)</td>
+</tr>
+
+<tr>
+<td>12942</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.bitMode: 64 (sun.arch.data.model)</td>
+</tr>
+
+<tr>
+<td>12942</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noPreferDirect: false</td>
+</tr>
+
+<tr>
+<td>13252</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.util.ClassSize category">org.apache.hadoop.hbase.util.ClassSize</td>
+<td title="Message">Using Unsafe to estimate memory layout</td>
+</tr>
+
+<tr>
+<td>13330</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.ipc.AbstractRpcClient category">org.apache.hadoop.hbase.ipc.AbstractRpcClient</td>
+<td title="Message">Codec=org.apache.hadoop.hbase.codec.KeyValueCodec@2579ac74, compressor=null, tcpKeepAlive=true, tcpNoDelay=true, connectTO=10000, readTO=20000, writeTO=60000, minIdleTimeBeforeClose=120000, maxRetries=0, fallbackAllowed=false, bind address=null</td>
+</tr>
+
+<tr>
+<td>14175</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b730006, packet:: clientPath:null serverPath:null finished:false header:: 3,3  replyHeader:: 3,421,0  request:: '/hbase,F  response:: s{3,3,1543389415294,1543389415294,0,62,0,0,0,18,402} </td>
+</tr>
+
+<tr>
+<td>14185</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b730006, packet:: clientPath:null serverPath:null finished:false header:: 4,4  replyHeader:: 4,421,0  request:: '/hbase/master,F  response:: #ffffffff000146d61737465723a3136303030ffffffd4ffffffe533ffffffa8ffffffe9ffffffabfffffffb4750425546a18ac36326631363966386439643110ffffff807d18ffffff94ffffffa1ffffff82ffffff96fffffff62c10018ffffff8a7d,s{385,385,1543550049806,1543550049806,0,0,0,101158095751938048,60,0,385} </td>
+</tr>
+
+<tr>
+<td>14863</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.ipc.RpcConnection category">org.apache.hadoop.hbase.ipc.RpcConnection</td>
+<td title="Message">Use SIMPLE authentication for service MasterService, sasl=false</td>
+</tr>
+
+<tr>
+<td>14999</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.ipc.BlockingRpcConnection category">org.apache.hadoop.hbase.ipc.BlockingRpcConnection</td>
+<td title="Message">Connecting to 62f169f8d9d1/202.204.62.145:16000</td>
+</tr>
+
+<tr>
+<td>20097</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b730006, packet:: clientPath:null serverPath:null finished:false header:: 5,4  replyHeader:: 5,432,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a3136323031ffffffc13c38ffffff9dffffffb45bffffff974b50425546a18ac36326631363966386439643110ffffffc97e18ffffffafffffffa8ffffff82ffffff96fffffff62c100183,s{402,402,1543550077824,1543550077824,0,0,0,0,65,0,402} </td>
+</tr>
+
+<tr>
+<td>20302</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b730006, packet:: clientPath:null serverPath:null finished:false header:: 6,8  replyHeader:: 6,432,0  request:: '/hbase,F  response:: v{'replication,'meta-region-server,'rs,'splitWAL,'backup-masters,'table-lock,'flush-table-proc,'master-maintenance,'region-in-transition,'online-snapshot,'switch,'master,'running,'recovering-regions,'draining,'namespace,'hbaseid,'table} </td>
+</tr>
+
+<tr>
+<td>21079</td>
+<td title="htable-pool3-t1 thread">htable-pool3-t1</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.ipc.RpcConnection category">org.apache.hadoop.hbase.ipc.RpcConnection</td>
+<td title="Message">Use SIMPLE authentication for service ClientService, sasl=false</td>
+</tr>
+
+<tr>
+<td>21079</td>
+<td title="htable-pool3-t1 thread">htable-pool3-t1</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.ipc.BlockingRpcConnection category">org.apache.hadoop.hbase.ipc.BlockingRpcConnection</td>
+<td title="Message">Connecting to 62f169f8d9d1/202.204.62.145:16201</td>
+</tr>
+
+<tr>
+<td>21450</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.hadoop.hbase.client.HBaseAdmin category">org.apache.hadoop.hbase.client.HBaseAdmin</td>
+<td title="Message">Created employees</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Fri Nov 30 11:57:15 CST 2018<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.Groups category">org.apache.hadoop.security.Groups</td>
+<td title="Message"> Creating new Groups object</td>
+</tr>
+
+<tr>
+<td>41</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.util.NativeCodeLoader category">org.apache.hadoop.util.NativeCodeLoader</td>
+<td title="Message">Trying to load the custom-built native-hadoop library...</td>
+</tr>
+
+<tr>
+<td>45</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.util.NativeCodeLoader category">org.apache.hadoop.util.NativeCodeLoader</td>
+<td title="Message">Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path</td>
+</tr>
+
+<tr>
+<td>45</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.util.NativeCodeLoader category">org.apache.hadoop.util.NativeCodeLoader</td>
+<td title="Message">java.library.path=C:\Program Files\Java\jdk1.7.0_17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/lib/amd64;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jdk1.7.0_17\bin;C:\Program Files\Java\jdk1.7.0_17\jre\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\MATLAB\R2012b\runtime\win64;C:\Program Files\MATLAB\R2012b\bin;C:\Program Files\nodejs\;C:\Program Files\NOX\Nox\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\Users\admin\Anaconda3\Library\bin;C:\Program Files (x86)\WinSCP\;E:\hadoop-2.7.7;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\admin\AppData\Roaming\npm;C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\;;C:\Program Files\Docker Toolbox;C:\Program Files\Java\eclipse;;.</td>
+</tr>
+
+<tr>
+<td>46</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>WARN</strong></font></td>
+<td title="org.apache.hadoop.util.NativeCodeLoader category">org.apache.hadoop.util.NativeCodeLoader</td>
+<td title="Message">Unable to load native-hadoop library for your platform... using builtin-java classes where applicable</td>
+</tr>
+
+<tr>
+<td>67</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.util.PerformanceAdvisory category">org.apache.hadoop.util.PerformanceAdvisory</td>
+<td title="Message">Falling back to shell based</td>
+</tr>
+
+<tr>
+<td>68</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback category">org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback</td>
+<td title="Message">Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping</td>
+</tr>
+
+<tr>
+<td>205</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.Groups category">org.apache.hadoop.security.Groups</td>
+<td title="Message">Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000</td>
+</tr>
+
+<tr>
+<td>377</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.metrics2.lib.MutableMetricsFactory category">org.apache.hadoop.metrics2.lib.MutableMetricsFactory</td>
+<td title="Message">field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of successful kerberos logins and latency (milliseconds)], always=false, type=DEFAULT, sampleName=Ops)</td>
+</tr>
+
+<tr>
+<td>394</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.metrics2.lib.MutableMetricsFactory category">org.apache.hadoop.metrics2.lib.MutableMetricsFactory</td>
+<td title="Message">field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of failed kerberos logins and latency (milliseconds)], always=false, type=DEFAULT, sampleName=Ops)</td>
+</tr>
+
+<tr>
+<td>395</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.metrics2.lib.MutableMetricsFactory category">org.apache.hadoop.metrics2.lib.MutableMetricsFactory</td>
+<td title="Message">field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[GetGroups], always=false, type=DEFAULT, sampleName=Ops)</td>
+</tr>
+
+<tr>
+<td>398</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.metrics2.impl.MetricsSystemImpl category">org.apache.hadoop.metrics2.impl.MetricsSystemImpl</td>
+<td title="Message">UgiMetrics, User and group related metrics</td>
+</tr>
+
+<tr>
+<td>627</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.authentication.util.KerberosName category">org.apache.hadoop.security.authentication.util.KerberosName</td>
+<td title="Message">Kerberos krb5 configuration not found, setting default realm to empty</td>
+</tr>
+
+<tr>
+<td>636</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">hadoop login</td>
+</tr>
+
+<tr>
+<td>637</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">hadoop login commit</td>
+</tr>
+
+<tr>
+<td>647</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">using local user:NTUserPrincipal: admin</td>
+</tr>
+
+<tr>
+<td>648</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">Using user: &quot;NTUserPrincipal: admin&quot; with name admin</td>
+</tr>
+
+<tr>
+<td>648</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">User entry: &quot;admin&quot;</td>
+</tr>
+
+<tr>
+<td>648</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">Assuming keytab is managed externally since logged in from subject.</td>
+</tr>
+
+<tr>
+<td>649</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">UGI loginUser:admin (auth:SIMPLE)</td>
+</tr>
+
+<tr>
+<td>1009</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper category">org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper</td>
+<td title="Message">Process identifier=hconnection-0x42422c1 connecting to ZooKeeper ensemble=62f169f8d9d1:2181</td>
+</tr>
+
+<tr>
+<td>1020</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT</td>
+</tr>
+
+<tr>
+<td>1020</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:host.name=DESKTOP-LNH6VC9</td>
+</tr>
+
+<tr>
+<td>1020</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.version=1.7.0_17</td>
+</tr>
+
+<tr>
+<td>1020</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.vendor=Oracle Corporation</td>
+</tr>
+
+<tr>
+<td>1020</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.home=C:\Program Files\Java\jdk1.7.0_17\jre</td>
+</tr>
+
+<tr>
+<td>1020</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.class.path=E:\JavaProjects\HBaseTest\bin;E:\hadoop-2.7.7\share\hadoop\yarn\lib\zookeeper-3.4.6.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\zookeeper-3.4.6-tests.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\xz-1.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\stax-api-1.0-2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\servlet-api-2.5.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\protobuf-java-2.5.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\netty-3.6.2.Final.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\log4j-1.2.17.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\leveldbjni-all-1.8.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jsr305-3.0.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jetty-util-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jetty-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jettison-1.1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-server-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-json-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-guice-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-core-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-client-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jaxb-impl-2.2.3-1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jaxb-api-2.2.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\javax.inject-1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jackson-xc-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jackson-mapper-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jackson-jaxrs-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jackson-core-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\guice-servlet-3.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\guice-3.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\guava-11.0.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-logging-1.1.3.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-lang-2.6.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-io-2.4.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-compress-1.4.1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-collections-3.2.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-codec-1.4.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-cli-1.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\asm-3.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\aopalliance-1.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\activation-1.1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-web-proxy-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-sharedcachemanager-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-resourcemanager-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-nodemanager-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-common-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-applicationhistoryservice-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-registry-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-common-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-client-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-applications-unmanaged-am-launcher-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-applications-distributedshell-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-api-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\xmlenc-0.52.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\xml-apis-1.3.04.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\xercesImpl-2.9.1.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\servlet-api-2.5.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\protobuf-java-2.5.0.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\netty-all-4.0.23.Final.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\netty-3.6.2.Final.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\log4j-1.2.17.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\leveldbjni-all-1.8.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jsr305-3.0.0.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jetty-util-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jetty-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jersey-server-1.9.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jersey-core-1.9.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jackson-mapper-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jackson-core-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\htrace-core-3.1.0-incubating.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\guava-11.0.2.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-logging-1.1.3.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-lang-2.6.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-io-2.4.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-daemon-1.0.13.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-codec-1.4.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-cli-1.2.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\asm-3.2.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\hadoop-hdfs-nfs-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\hadoop-hdfs-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\xz-1.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\snappy-java-1.0.4.1.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\protobuf-java-2.5.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\paranamer-2.3.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\netty-3.6.2.Final.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\log4j-1.2.17.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\leveldbjni-all-1.8.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\junit-4.11.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jersey-server-1.9.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jersey-guice-1.9.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jersey-core-1.9.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\javax.inject-1.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jackson-mapper-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jackson-core-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\hamcrest-core-1.3.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\hadoop-annotations-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\guice-servlet-3.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\guice-3.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\commons-io-2.4.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\commons-compress-1.4.1.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\avro-1.7.4.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\asm-3.2.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\aopalliance-1.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-shuffle-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-jobclient-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-hs-plugins-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-hs-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-core-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-common-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-app-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\zookeeper-3.4.6.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\xz-1.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\xmlenc-0.52.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\stax-api-1.0-2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\snappy-java-1.0.4.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\slf4j-log4j12-1.7.10.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\slf4j-api-1.7.10.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\servlet-api-2.5.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\protobuf-java-2.5.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\paranamer-2.3.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\netty-3.6.2.Final.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\mockito-all-1.8.5.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\log4j-1.2.17.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\junit-4.11.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jsr305-3.0.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jsp-api-2.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jsch-0.1.54.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jetty-util-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jetty-sslengine-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jetty-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jettison-1.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jets3t-0.9.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jersey-server-1.9.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jersey-json-1.9.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jersey-core-1.9.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jaxb-impl-2.2.3-1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jaxb-api-2.2.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\java-xmlbuilder-0.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jackson-xc-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jackson-mapper-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jackson-jaxrs-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jackson-core-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\httpcore-4.2.5.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\httpclient-4.2.5.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\htrace-core-3.1.0-incubating.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\hamcrest-core-1.3.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\hadoop-auth-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\hadoop-annotations-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\guava-11.0.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\gson-2.2.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\curator-recipes-2.7.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\curator-framework-2.7.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\curator-client-2.7.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-net-3.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-math3-3.1.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-logging-1.1.3.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-lang-2.6.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-io-2.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-httpclient-3.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-digester-1.8.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-configuration-1.6.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-compress-1.4.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-collections-3.2.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-codec-1.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-cli-1.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-beanutils-core-1.8.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-beanutils-1.7.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\avro-1.7.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\asm-3.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\api-util-1.0.0-M20.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\api-asn1-api-1.0.0-M20.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\apacheds-kerberos-codec-2.0.0-M15.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\apacheds-i18n-2.0.0-M15.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\activation-1.1.jar;E:\hadoop-2.7.7\share\hadoop\common\hadoop-nfs-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\common\hadoop-common-2.7.7.jar;E:\hbase-1.4.8\lib\activation-1.1.jar;E:\hbase-1.4.8\lib\apacheds-i18n-2.0.0-M15.jar;E:\hbase-1.4.8\lib\apacheds-kerberos-codec-2.0.0-M15.jar;E:\hbase-1.4.8\lib\api-asn1-api-1.0.0-M20.jar;E:\hbase-1.4.8\lib\api-util-1.0.0-M20.jar;E:\hbase-1.4.8\lib\asm-3.1.jar;E:\hbase-1.4.8\lib\avro-1.7.7.jar;E:\hbase-1.4.8\lib\commons-beanutils-1.7.0.jar;E:\hbase-1.4.8\lib\commons-beanutils-core-1.8.0.jar;E:\hbase-1.4.8\lib\commons-cli-1.2.jar;E:\hbase-1.4.8\lib\commons-codec-1.9.jar;E:\hbase-1.4.8\lib\commons-collections-3.2.2.jar;E:\hbase-1.4.8\lib\commons-compress-1.4.1.jar;E:\hbase-1.4.8\lib\commons-configuration-1.6.jar;E:\hbase-1.4.8\lib\commons-daemon-1.0.13.jar;E:\hbase-1.4.8\lib\commons-digester-1.8.jar;E:\hbase-1.4.8\lib\commons-el-1.0.jar;E:\hbase-1.4.8\lib\commons-httpclient-3.1.jar;E:\hbase-1.4.8\lib\commons-io-2.4.jar;E:\hbase-1.4.8\lib\commons-lang-2.6.jar;E:\hbase-1.4.8\lib\commons-logging-1.2.jar;E:\hbase-1.4.8\lib\commons-math-2.2.jar;E:\hbase-1.4.8\lib\commons-math3-3.1.1.jar;E:\hbase-1.4.8\lib\commons-net-3.1.jar;E:\hbase-1.4.8\lib\curator-client-2.7.1.jar;E:\hbase-1.4.8\lib\curator-framework-2.7.1.jar;E:\hbase-1.4.8\lib\curator-recipes-2.7.1.jar;E:\hbase-1.4.8\lib\disruptor-3.3.0.jar;E:\hbase-1.4.8\lib\findbugs-annotations-1.3.9-1.jar;E:\hbase-1.4.8\lib\gson-2.2.4.jar;E:\hbase-1.4.8\lib\guava-12.0.1.jar;E:\hbase-1.4.8\lib\hadoop-annotations-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-auth-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-client-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-common-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-hdfs-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-app-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-common-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-core-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-jobclient-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-shuffle-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-yarn-api-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-yarn-client-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-yarn-common-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-yarn-server-common-2.7.4.jar;E:\hbase-1.4.8\lib\hbase-annotations-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-annotations-1.4.8-tests.jar;E:\hbase-1.4.8\lib\hbase-client-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-common-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-common-1.4.8-tests.jar;E:\hbase-1.4.8\lib\hbase-examples-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-external-blockcache-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-hadoop2-compat-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-hadoop-compat-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-it-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-it-1.4.8-tests.jar;E:\hbase-1.4.8\lib\hbase-metrics-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-metrics-api-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-prefix-tree-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-procedure-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-protocol-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-resource-bundle-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-rest-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-rsgroup-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-server-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-server-1.4.8-tests.jar;E:\hbase-1.4.8\lib\hbase-shell-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-thrift-1.4.8.jar;E:\hbase-1.4.8\lib\htrace-core-3.1.0-incubating.jar;E:\hbase-1.4.8\lib\httpclient-4.5.2.jar;E:\hbase-1.4.8\lib\httpcore-4.4.4.jar;E:\hbase-1.4.8\lib\jackson-core-asl-1.9.13.jar;E:\hbase-1.4.8\lib\jackson-jaxrs-1.9.13.jar;E:\hbase-1.4.8\lib\jackson-mapper-asl-1.9.13.jar;E:\hbase-1.4.8\lib\jackson-xc-1.9.13.jar;E:\hbase-1.4.8\lib\jamon-runtime-2.4.1.jar;E:\hbase-1.4.8\lib\jasper-compiler-5.5.23.jar;E:\hbase-1.4.8\lib\jasper-runtime-5.5.23.jar;E:\hbase-1.4.8\lib\jaxb-api-2.2.2.jar;E:\hbase-1.4.8\lib\jaxb-impl-2.2.3-1.jar;E:\hbase-1.4.8\lib\jcodings-1.0.8.jar;E:\hbase-1.4.8\lib\jersey-client-1.9.jar;E:\hbase-1.4.8\lib\jersey-core-1.9.jar;E:\hbase-1.4.8\lib\jersey-json-1.9.jar;E:\hbase-1.4.8\lib\jersey-server-1.9.jar;E:\hbase-1.4.8\lib\jettison-1.3.3.jar;E:\hbase-1.4.8\lib\jetty-6.1.26.jar;E:\hbase-1.4.8\lib\jetty-sslengine-6.1.26.jar;E:\hbase-1.4.8\lib\jetty-util-6.1.26.jar;E:\hbase-1.4.8\lib\joni-2.1.2.jar;E:\hbase-1.4.8\lib\jruby-complete-1.6.8.jar;E:\hbase-1.4.8\lib\jsch-0.1.54.jar;E:\hbase-1.4.8\lib\jsp-2.1-6.1.14.jar;E:\hbase-1.4.8\lib\jsp-api-2.1-6.1.14.jar;E:\hbase-1.4.8\lib\junit-4.12.jar;E:\hbase-1.4.8\lib\leveldbjni-all-1.8.jar;E:\hbase-1.4.8\lib\libthrift-0.9.3.jar;E:\hbase-1.4.8\lib\log4j-1.2.17.jar;E:\hbase-1.4.8\lib\metrics-core-2.2.0.jar;E:\hbase-1.4.8\lib\metrics-core-3.1.2.jar;E:\hbase-1.4.8\lib\netty-all-4.1.8.Final.jar;E:\hbase-1.4.8\lib\paranamer-2.3.jar;E:\hbase-1.4.8\lib\protobuf-java-2.5.0.jar;E:\hbase-1.4.8\lib\servlet-api-2.5-6.1.14.jar;E:\hbase-1.4.8\lib\slf4j-api-1.7.7.jar;E:\hbase-1.4.8\lib\slf4j-log4j12-1.7.10.jar;E:\hbase-1.4.8\lib\snappy-java-1.0.5.jar;E:\hbase-1.4.8\lib\spymemcached-2.11.6.jar;E:\hbase-1.4.8\lib\xmlenc-0.52.jar;E:\hbase-1.4.8\lib\xz-1.0.jar;E:\hbase-1.4.8\lib\zookeeper-3.4.10.jar</td>
+</tr>
+
+<tr>
+<td>1021</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.library.path=C:\Program Files\Java\jdk1.7.0_17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/lib/amd64;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jdk1.7.0_17\bin;C:\Program Files\Java\jdk1.7.0_17\jre\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\MATLAB\R2012b\runtime\win64;C:\Program Files\MATLAB\R2012b\bin;C:\Program Files\nodejs\;C:\Program Files\NOX\Nox\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\Users\admin\Anaconda3\Library\bin;C:\Program Files (x86)\WinSCP\;E:\hadoop-2.7.7;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\admin\AppData\Roaming\npm;C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\;;C:\Program Files\Docker Toolbox;C:\Program Files\Java\eclipse;;.</td>
+</tr>
+
+<tr>
+<td>1021</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.io.tmpdir=C:\Users\admin\AppData\Local\Temp\</td>
+</tr>
+
+<tr>
+<td>1021</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.compiler=&lt;NA&gt;</td>
+</tr>
+
+<tr>
+<td>1021</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:os.name=Windows 8</td>
+</tr>
+
+<tr>
+<td>1021</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:os.arch=amd64</td>
+</tr>
+
+<tr>
+<td>1021</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:os.version=6.2</td>
+</tr>
+
+<tr>
+<td>1021</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:user.name=admin</td>
+</tr>
+
+<tr>
+<td>1021</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:user.home=C:\Users\admin</td>
+</tr>
+
+<tr>
+<td>1021</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:user.dir=E:\JavaProjects\HBaseTest</td>
+</tr>
+
+<tr>
+<td>1022</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Initiating client connection, connectString=62f169f8d9d1:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@68d1305d</td>
+</tr>
+
+<tr>
+<td>1026</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">zookeeper.disableAutoWatchReset is false</td>
+</tr>
+
+<tr>
+<td>1054</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Opening socket connection to server 62f169f8d9d1/202.204.62.145:2181. Will not attempt to authenticate using SASL (unknown error)</td>
+</tr>
+
+<tr>
+<td>1062</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Socket connection established to 62f169f8d9d1/202.204.62.145:2181, initiating session</td>
+</tr>
+
+<tr>
+<td>1066</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Session establishment request sent on 62f169f8d9d1/202.204.62.145:2181</td>
+</tr>
+
+<tr>
+<td>1103</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Session establishment complete on server 62f169f8d9d1/202.204.62.145:2181, sessionid = 0x16762c08b730009, negotiated timeout = 90000</td>
+</tr>
+
+<tr>
+<td>1104</td>
+<td title="main-EventThread thread">main-EventThread</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher category">org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher</td>
+<td title="Message">hconnection-0x42422c10x0, quorum=62f169f8d9d1:2181, baseZNode=/hbase Received ZooKeeper Event, type=None, state=SyncConnected, path=null</td>
+</tr>
+
+<tr>
+<td>1106</td>
+<td title="main-EventThread thread">main-EventThread</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher category">org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher</td>
+<td title="Message">hconnection-0x42422c1-0x16762c08b730009 connected</td>
+</tr>
+
+<tr>
+<td>1116</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b730009, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,436,0  request:: '/hbase/hbaseid,F  response:: s{178,388,1543401801703,1543550052146,3,0,0,0,67,0,178} </td>
+</tr>
+
+<tr>
+<td>1123</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b730009, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,436,0  request:: '/hbase/hbaseid,F  response:: #ffffffff000146d61737465723a31363030306553531fffffffc03effffffb7ffffffd850425546a2466663139313336612d343865312d346633302d623837342d643163313031383762373464,s{178,388,1543401801703,1543550052146,3,0,0,0,67,0,178} </td>
+</tr>
+
+<tr>
+<td>1660</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.logging.InternalLoggerFactory category">io.netty.util.internal.logging.InternalLoggerFactory</td>
+<td title="Message">Using SLF4J as the default logging framework</td>
+</tr>
+
+<tr>
+<td>1666</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.ResourceLeakDetector category">io.netty.util.ResourceLeakDetector</td>
+<td title="Message">-Dio.netty.leakDetectionLevel: simple</td>
+</tr>
+
+<tr>
+<td>1677</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Buffer.address: available</td>
+</tr>
+
+<tr>
+<td>1677</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.theUnsafe: available</td>
+</tr>
+
+<tr>
+<td>1678</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.copyMemory: available</td>
+</tr>
+
+<tr>
+<td>1678</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Bits.unaligned: true</td>
+</tr>
+
+<tr>
+<td>1679</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Platform: Windows</td>
+</tr>
+
+<tr>
+<td>1680</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Java version: 7</td>
+</tr>
+
+<tr>
+<td>1680</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noUnsafe: false</td>
+</tr>
+
+<tr>
+<td>1680</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">sun.misc.Unsafe: available</td>
+</tr>
+
+<tr>
+<td>1680</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noJavassist: false</td>
+</tr>
+
+<tr>
+<td>1682</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Javassist: unavailable</td>
+</tr>
+
+<tr>
+<td>1682</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.</td>
+</tr>
+
+<tr>
+<td>1682</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)</td>
+</tr>
+
+<tr>
+<td>1683</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.bitMode: 64 (sun.arch.data.model)</td>
+</tr>
+
+<tr>
+<td>1683</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noPreferDirect: false</td>
+</tr>
+
+<tr>
+<td>1708</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.util.ClassSize category">org.apache.hadoop.hbase.util.ClassSize</td>
+<td title="Message">Using Unsafe to estimate memory layout</td>
+</tr>
+
+<tr>
+<td>1716</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.ipc.AbstractRpcClient category">org.apache.hadoop.hbase.ipc.AbstractRpcClient</td>
+<td title="Message">Codec=org.apache.hadoop.hbase.codec.KeyValueCodec@46e3b6b7, compressor=null, tcpKeepAlive=true, tcpNoDelay=true, connectTO=10000, readTO=20000, writeTO=60000, minIdleTimeBeforeClose=120000, maxRetries=0, fallbackAllowed=false, bind address=null</td>
+</tr>
+
+<tr>
+<td>1770</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b730009, packet:: clientPath:null serverPath:null finished:false header:: 3,4  replyHeader:: 3,436,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a3136323031ffffffc13c38ffffff9dffffffb45bffffff974b50425546a18ac36326631363966386439643110ffffffc97e18ffffffafffffffa8ffffff82ffffff96fffffff62c100183,s{402,402,1543550077824,1543550077824,0,0,0,0,65,0,402} </td>
+</tr>
+
+<tr>
+<td>1803</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b730009, packet:: clientPath:null serverPath:null finished:false header:: 4,8  replyHeader:: 4,436,0  request:: '/hbase,F  response:: v{'replication,'meta-region-server,'rs,'splitWAL,'backup-masters,'table-lock,'flush-table-proc,'master-maintenance,'region-in-transition,'online-snapshot,'switch,'master,'running,'recovering-regions,'draining,'namespace,'hbaseid,'table} </td>
+</tr>
+
+<tr>
+<td>2024</td>
+<td title="htable-pool3-t1 thread">htable-pool3-t1</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.ipc.RpcConnection category">org.apache.hadoop.hbase.ipc.RpcConnection</td>
+<td title="Message">Use SIMPLE authentication for service ClientService, sasl=false</td>
+</tr>
+
+<tr>
+<td>2054</td>
+<td title="htable-pool3-t1 thread">htable-pool3-t1</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.ipc.BlockingRpcConnection category">org.apache.hadoop.hbase.ipc.BlockingRpcConnection</td>
+<td title="Message">Connecting to 62f169f8d9d1/202.204.62.145:16201</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Fri Nov 30 12:54:53 CST 2018<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.Groups category">org.apache.hadoop.security.Groups</td>
+<td title="Message"> Creating new Groups object</td>
+</tr>
+
+<tr>
+<td>37</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.util.NativeCodeLoader category">org.apache.hadoop.util.NativeCodeLoader</td>
+<td title="Message">Trying to load the custom-built native-hadoop library...</td>
+</tr>
+
+<tr>
+<td>41</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.util.NativeCodeLoader category">org.apache.hadoop.util.NativeCodeLoader</td>
+<td title="Message">Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path</td>
+</tr>
+
+<tr>
+<td>42</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.util.NativeCodeLoader category">org.apache.hadoop.util.NativeCodeLoader</td>
+<td title="Message">java.library.path=C:\Program Files\Java\jdk1.7.0_17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/lib/amd64;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jdk1.7.0_17\bin;C:\Program Files\Java\jdk1.7.0_17\jre\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\MATLAB\R2012b\runtime\win64;C:\Program Files\MATLAB\R2012b\bin;C:\Program Files\nodejs\;C:\Program Files\NOX\Nox\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\Users\admin\Anaconda3\Library\bin;C:\Program Files (x86)\WinSCP\;E:\hadoop-2.7.7;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\admin\AppData\Roaming\npm;C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\;;C:\Program Files\Docker Toolbox;C:\Program Files\Java\eclipse;;.</td>
+</tr>
+
+<tr>
+<td>42</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>WARN</strong></font></td>
+<td title="org.apache.hadoop.util.NativeCodeLoader category">org.apache.hadoop.util.NativeCodeLoader</td>
+<td title="Message">Unable to load native-hadoop library for your platform... using builtin-java classes where applicable</td>
+</tr>
+
+<tr>
+<td>61</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.util.PerformanceAdvisory category">org.apache.hadoop.util.PerformanceAdvisory</td>
+<td title="Message">Falling back to shell based</td>
+</tr>
+
+<tr>
+<td>62</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback category">org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback</td>
+<td title="Message">Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping</td>
+</tr>
+
+<tr>
+<td>192</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.Groups category">org.apache.hadoop.security.Groups</td>
+<td title="Message">Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000</td>
+</tr>
+
+<tr>
+<td>364</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.metrics2.lib.MutableMetricsFactory category">org.apache.hadoop.metrics2.lib.MutableMetricsFactory</td>
+<td title="Message">field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of successful kerberos logins and latency (milliseconds)], always=false, type=DEFAULT, sampleName=Ops)</td>
+</tr>
+
+<tr>
+<td>380</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.metrics2.lib.MutableMetricsFactory category">org.apache.hadoop.metrics2.lib.MutableMetricsFactory</td>
+<td title="Message">field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of failed kerberos logins and latency (milliseconds)], always=false, type=DEFAULT, sampleName=Ops)</td>
+</tr>
+
+<tr>
+<td>380</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.metrics2.lib.MutableMetricsFactory category">org.apache.hadoop.metrics2.lib.MutableMetricsFactory</td>
+<td title="Message">field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[GetGroups], always=false, type=DEFAULT, sampleName=Ops)</td>
+</tr>
+
+<tr>
+<td>382</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.metrics2.impl.MetricsSystemImpl category">org.apache.hadoop.metrics2.impl.MetricsSystemImpl</td>
+<td title="Message">UgiMetrics, User and group related metrics</td>
+</tr>
+
+<tr>
+<td>566</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.authentication.util.KerberosName category">org.apache.hadoop.security.authentication.util.KerberosName</td>
+<td title="Message">Kerberos krb5 configuration not found, setting default realm to empty</td>
+</tr>
+
+<tr>
+<td>576</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">hadoop login</td>
+</tr>
+
+<tr>
+<td>577</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">hadoop login commit</td>
+</tr>
+
+<tr>
+<td>588</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">using local user:NTUserPrincipal: admin</td>
+</tr>
+
+<tr>
+<td>589</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">Using user: &quot;NTUserPrincipal: admin&quot; with name admin</td>
+</tr>
+
+<tr>
+<td>589</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">User entry: &quot;admin&quot;</td>
+</tr>
+
+<tr>
+<td>589</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">Assuming keytab is managed externally since logged in from subject.</td>
+</tr>
+
+<tr>
+<td>590</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">UGI loginUser:admin (auth:SIMPLE)</td>
+</tr>
+
+<tr>
+<td>959</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper category">org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper</td>
+<td title="Message">Process identifier=hconnection-0x2de9fae7 connecting to ZooKeeper ensemble=62f169f8d9d1:2181</td>
+</tr>
+
+<tr>
+<td>966</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT</td>
+</tr>
+
+<tr>
+<td>966</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:host.name=DESKTOP-LNH6VC9</td>
+</tr>
+
+<tr>
+<td>966</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.version=1.7.0_17</td>
+</tr>
+
+<tr>
+<td>966</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.vendor=Oracle Corporation</td>
+</tr>
+
+<tr>
+<td>966</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.home=C:\Program Files\Java\jdk1.7.0_17\jre</td>
+</tr>
+
+<tr>
+<td>966</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.class.path=E:\JavaProjects\HBaseTest\bin;E:\hadoop-2.7.7\share\hadoop\yarn\lib\zookeeper-3.4.6.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\zookeeper-3.4.6-tests.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\xz-1.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\stax-api-1.0-2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\servlet-api-2.5.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\protobuf-java-2.5.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\netty-3.6.2.Final.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\log4j-1.2.17.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\leveldbjni-all-1.8.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jsr305-3.0.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jetty-util-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jetty-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jettison-1.1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-server-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-json-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-guice-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-core-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-client-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jaxb-impl-2.2.3-1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jaxb-api-2.2.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\javax.inject-1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jackson-xc-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jackson-mapper-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jackson-jaxrs-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jackson-core-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\guice-servlet-3.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\guice-3.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\guava-11.0.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-logging-1.1.3.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-lang-2.6.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-io-2.4.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-compress-1.4.1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-collections-3.2.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-codec-1.4.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-cli-1.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\asm-3.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\aopalliance-1.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\activation-1.1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-web-proxy-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-sharedcachemanager-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-resourcemanager-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-nodemanager-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-common-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-applicationhistoryservice-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-registry-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-common-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-client-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-applications-unmanaged-am-launcher-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-applications-distributedshell-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-api-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\xmlenc-0.52.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\xml-apis-1.3.04.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\xercesImpl-2.9.1.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\servlet-api-2.5.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\protobuf-java-2.5.0.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\netty-all-4.0.23.Final.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\netty-3.6.2.Final.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\log4j-1.2.17.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\leveldbjni-all-1.8.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jsr305-3.0.0.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jetty-util-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jetty-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jersey-server-1.9.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jersey-core-1.9.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jackson-mapper-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jackson-core-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\htrace-core-3.1.0-incubating.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\guava-11.0.2.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-logging-1.1.3.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-lang-2.6.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-io-2.4.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-daemon-1.0.13.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-codec-1.4.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-cli-1.2.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\asm-3.2.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\hadoop-hdfs-nfs-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\hadoop-hdfs-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\xz-1.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\snappy-java-1.0.4.1.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\protobuf-java-2.5.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\paranamer-2.3.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\netty-3.6.2.Final.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\log4j-1.2.17.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\leveldbjni-all-1.8.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\junit-4.11.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jersey-server-1.9.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jersey-guice-1.9.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jersey-core-1.9.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\javax.inject-1.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jackson-mapper-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jackson-core-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\hamcrest-core-1.3.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\hadoop-annotations-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\guice-servlet-3.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\guice-3.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\commons-io-2.4.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\commons-compress-1.4.1.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\avro-1.7.4.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\asm-3.2.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\aopalliance-1.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-shuffle-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-jobclient-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-hs-plugins-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-hs-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-core-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-common-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-app-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\zookeeper-3.4.6.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\xz-1.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\xmlenc-0.52.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\stax-api-1.0-2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\snappy-java-1.0.4.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\slf4j-log4j12-1.7.10.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\slf4j-api-1.7.10.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\servlet-api-2.5.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\protobuf-java-2.5.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\paranamer-2.3.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\netty-3.6.2.Final.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\mockito-all-1.8.5.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\log4j-1.2.17.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\junit-4.11.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jsr305-3.0.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jsp-api-2.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jsch-0.1.54.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jetty-util-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jetty-sslengine-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jetty-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jettison-1.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jets3t-0.9.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jersey-server-1.9.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jersey-json-1.9.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jersey-core-1.9.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jaxb-impl-2.2.3-1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jaxb-api-2.2.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\java-xmlbuilder-0.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jackson-xc-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jackson-mapper-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jackson-jaxrs-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jackson-core-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\httpcore-4.2.5.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\httpclient-4.2.5.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\htrace-core-3.1.0-incubating.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\hamcrest-core-1.3.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\hadoop-auth-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\hadoop-annotations-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\guava-11.0.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\gson-2.2.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\curator-recipes-2.7.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\curator-framework-2.7.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\curator-client-2.7.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-net-3.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-math3-3.1.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-logging-1.1.3.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-lang-2.6.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-io-2.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-httpclient-3.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-digester-1.8.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-configuration-1.6.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-compress-1.4.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-collections-3.2.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-codec-1.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-cli-1.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-beanutils-core-1.8.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-beanutils-1.7.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\avro-1.7.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\asm-3.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\api-util-1.0.0-M20.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\api-asn1-api-1.0.0-M20.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\apacheds-kerberos-codec-2.0.0-M15.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\apacheds-i18n-2.0.0-M15.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\activation-1.1.jar;E:\hadoop-2.7.7\share\hadoop\common\hadoop-nfs-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\common\hadoop-common-2.7.7.jar;E:\hbase-1.4.8\lib\activation-1.1.jar;E:\hbase-1.4.8\lib\apacheds-i18n-2.0.0-M15.jar;E:\hbase-1.4.8\lib\apacheds-kerberos-codec-2.0.0-M15.jar;E:\hbase-1.4.8\lib\api-asn1-api-1.0.0-M20.jar;E:\hbase-1.4.8\lib\api-util-1.0.0-M20.jar;E:\hbase-1.4.8\lib\asm-3.1.jar;E:\hbase-1.4.8\lib\avro-1.7.7.jar;E:\hbase-1.4.8\lib\commons-beanutils-1.7.0.jar;E:\hbase-1.4.8\lib\commons-beanutils-core-1.8.0.jar;E:\hbase-1.4.8\lib\commons-cli-1.2.jar;E:\hbase-1.4.8\lib\commons-codec-1.9.jar;E:\hbase-1.4.8\lib\commons-collections-3.2.2.jar;E:\hbase-1.4.8\lib\commons-compress-1.4.1.jar;E:\hbase-1.4.8\lib\commons-configuration-1.6.jar;E:\hbase-1.4.8\lib\commons-daemon-1.0.13.jar;E:\hbase-1.4.8\lib\commons-digester-1.8.jar;E:\hbase-1.4.8\lib\commons-el-1.0.jar;E:\hbase-1.4.8\lib\commons-httpclient-3.1.jar;E:\hbase-1.4.8\lib\commons-io-2.4.jar;E:\hbase-1.4.8\lib\commons-lang-2.6.jar;E:\hbase-1.4.8\lib\commons-logging-1.2.jar;E:\hbase-1.4.8\lib\commons-math-2.2.jar;E:\hbase-1.4.8\lib\commons-math3-3.1.1.jar;E:\hbase-1.4.8\lib\commons-net-3.1.jar;E:\hbase-1.4.8\lib\curator-client-2.7.1.jar;E:\hbase-1.4.8\lib\curator-framework-2.7.1.jar;E:\hbase-1.4.8\lib\curator-recipes-2.7.1.jar;E:\hbase-1.4.8\lib\disruptor-3.3.0.jar;E:\hbase-1.4.8\lib\findbugs-annotations-1.3.9-1.jar;E:\hbase-1.4.8\lib\gson-2.2.4.jar;E:\hbase-1.4.8\lib\guava-12.0.1.jar;E:\hbase-1.4.8\lib\hadoop-annotations-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-auth-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-client-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-common-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-hdfs-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-app-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-common-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-core-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-jobclient-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-shuffle-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-yarn-api-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-yarn-client-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-yarn-common-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-yarn-server-common-2.7.4.jar;E:\hbase-1.4.8\lib\hbase-annotations-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-annotations-1.4.8-tests.jar;E:\hbase-1.4.8\lib\hbase-client-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-common-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-common-1.4.8-tests.jar;E:\hbase-1.4.8\lib\hbase-examples-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-external-blockcache-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-hadoop2-compat-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-hadoop-compat-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-it-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-it-1.4.8-tests.jar;E:\hbase-1.4.8\lib\hbase-metrics-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-metrics-api-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-prefix-tree-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-procedure-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-protocol-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-resource-bundle-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-rest-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-rsgroup-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-server-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-server-1.4.8-tests.jar;E:\hbase-1.4.8\lib\hbase-shell-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-thrift-1.4.8.jar;E:\hbase-1.4.8\lib\htrace-core-3.1.0-incubating.jar;E:\hbase-1.4.8\lib\httpclient-4.5.2.jar;E:\hbase-1.4.8\lib\httpcore-4.4.4.jar;E:\hbase-1.4.8\lib\jackson-core-asl-1.9.13.jar;E:\hbase-1.4.8\lib\jackson-jaxrs-1.9.13.jar;E:\hbase-1.4.8\lib\jackson-mapper-asl-1.9.13.jar;E:\hbase-1.4.8\lib\jackson-xc-1.9.13.jar;E:\hbase-1.4.8\lib\jamon-runtime-2.4.1.jar;E:\hbase-1.4.8\lib\jasper-compiler-5.5.23.jar;E:\hbase-1.4.8\lib\jasper-runtime-5.5.23.jar;E:\hbase-1.4.8\lib\jaxb-api-2.2.2.jar;E:\hbase-1.4.8\lib\jaxb-impl-2.2.3-1.jar;E:\hbase-1.4.8\lib\jcodings-1.0.8.jar;E:\hbase-1.4.8\lib\jersey-client-1.9.jar;E:\hbase-1.4.8\lib\jersey-core-1.9.jar;E:\hbase-1.4.8\lib\jersey-json-1.9.jar;E:\hbase-1.4.8\lib\jersey-server-1.9.jar;E:\hbase-1.4.8\lib\jettison-1.3.3.jar;E:\hbase-1.4.8\lib\jetty-6.1.26.jar;E:\hbase-1.4.8\lib\jetty-sslengine-6.1.26.jar;E:\hbase-1.4.8\lib\jetty-util-6.1.26.jar;E:\hbase-1.4.8\lib\joni-2.1.2.jar;E:\hbase-1.4.8\lib\jruby-complete-1.6.8.jar;E:\hbase-1.4.8\lib\jsch-0.1.54.jar;E:\hbase-1.4.8\lib\jsp-2.1-6.1.14.jar;E:\hbase-1.4.8\lib\jsp-api-2.1-6.1.14.jar;E:\hbase-1.4.8\lib\junit-4.12.jar;E:\hbase-1.4.8\lib\leveldbjni-all-1.8.jar;E:\hbase-1.4.8\lib\libthrift-0.9.3.jar;E:\hbase-1.4.8\lib\log4j-1.2.17.jar;E:\hbase-1.4.8\lib\metrics-core-2.2.0.jar;E:\hbase-1.4.8\lib\metrics-core-3.1.2.jar;E:\hbase-1.4.8\lib\netty-all-4.1.8.Final.jar;E:\hbase-1.4.8\lib\paranamer-2.3.jar;E:\hbase-1.4.8\lib\protobuf-java-2.5.0.jar;E:\hbase-1.4.8\lib\servlet-api-2.5-6.1.14.jar;E:\hbase-1.4.8\lib\slf4j-api-1.7.7.jar;E:\hbase-1.4.8\lib\slf4j-log4j12-1.7.10.jar;E:\hbase-1.4.8\lib\snappy-java-1.0.5.jar;E:\hbase-1.4.8\lib\spymemcached-2.11.6.jar;E:\hbase-1.4.8\lib\xmlenc-0.52.jar;E:\hbase-1.4.8\lib\xz-1.0.jar;E:\hbase-1.4.8\lib\zookeeper-3.4.10.jar</td>
+</tr>
+
+<tr>
+<td>967</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.library.path=C:\Program Files\Java\jdk1.7.0_17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/lib/amd64;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jdk1.7.0_17\bin;C:\Program Files\Java\jdk1.7.0_17\jre\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\MATLAB\R2012b\runtime\win64;C:\Program Files\MATLAB\R2012b\bin;C:\Program Files\nodejs\;C:\Program Files\NOX\Nox\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\Users\admin\Anaconda3\Library\bin;C:\Program Files (x86)\WinSCP\;E:\hadoop-2.7.7;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\admin\AppData\Roaming\npm;C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\;;C:\Program Files\Docker Toolbox;C:\Program Files\Java\eclipse;;.</td>
+</tr>
+
+<tr>
+<td>967</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.io.tmpdir=C:\Users\admin\AppData\Local\Temp\</td>
+</tr>
+
+<tr>
+<td>967</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.compiler=&lt;NA&gt;</td>
+</tr>
+
+<tr>
+<td>967</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:os.name=Windows 8</td>
+</tr>
+
+<tr>
+<td>967</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:os.arch=amd64</td>
+</tr>
+
+<tr>
+<td>967</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:os.version=6.2</td>
+</tr>
+
+<tr>
+<td>967</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:user.name=admin</td>
+</tr>
+
+<tr>
+<td>967</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:user.home=C:\Users\admin</td>
+</tr>
+
+<tr>
+<td>967</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:user.dir=E:\JavaProjects\HBaseTest</td>
+</tr>
+
+<tr>
+<td>968</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Initiating client connection, connectString=62f169f8d9d1:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@746a56f0</td>
+</tr>
+
+<tr>
+<td>973</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">zookeeper.disableAutoWatchReset is false</td>
+</tr>
+
+<tr>
+<td>1002</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Opening socket connection to server 62f169f8d9d1/202.204.62.145:2181. Will not attempt to authenticate using SASL (unknown error)</td>
+</tr>
+
+<tr>
+<td>1007</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Socket connection established to 62f169f8d9d1/202.204.62.145:2181, initiating session</td>
+</tr>
+
+<tr>
+<td>1008</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Session establishment request sent on 62f169f8d9d1/202.204.62.145:2181</td>
+</tr>
+
+<tr>
+<td>1053</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Session establishment complete on server 62f169f8d9d1/202.204.62.145:2181, sessionid = 0x16762c08b73000d, negotiated timeout = 90000</td>
+</tr>
+
+<tr>
+<td>1055</td>
+<td title="main-EventThread thread">main-EventThread</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher category">org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher</td>
+<td title="Message">hconnection-0x2de9fae70x0, quorum=62f169f8d9d1:2181, baseZNode=/hbase Received ZooKeeper Event, type=None, state=SyncConnected, path=null</td>
+</tr>
+
+<tr>
+<td>1055</td>
+<td title="main-EventThread thread">main-EventThread</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher category">org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher</td>
+<td title="Message">hconnection-0x2de9fae7-0x16762c08b73000d connected</td>
+</tr>
+
+<tr>
+<td>1063</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b73000d, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,456,0  request:: '/hbase/hbaseid,F  response:: s{178,388,1543401801703,1543550052146,3,0,0,0,67,0,178} </td>
+</tr>
+
+<tr>
+<td>1072</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b73000d, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,456,0  request:: '/hbase/hbaseid,F  response:: #ffffffff000146d61737465723a31363030306553531fffffffc03effffffb7ffffffd850425546a2466663139313336612d343865312d346633302d623837342d643163313031383762373464,s{178,388,1543401801703,1543550052146,3,0,0,0,67,0,178} </td>
+</tr>
+
+<tr>
+<td>1573</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.logging.InternalLoggerFactory category">io.netty.util.internal.logging.InternalLoggerFactory</td>
+<td title="Message">Using SLF4J as the default logging framework</td>
+</tr>
+
+<tr>
+<td>1579</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.ResourceLeakDetector category">io.netty.util.ResourceLeakDetector</td>
+<td title="Message">-Dio.netty.leakDetectionLevel: simple</td>
+</tr>
+
+<tr>
+<td>1586</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Buffer.address: available</td>
+</tr>
+
+<tr>
+<td>1587</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.theUnsafe: available</td>
+</tr>
+
+<tr>
+<td>1587</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.copyMemory: available</td>
+</tr>
+
+<tr>
+<td>1587</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Bits.unaligned: true</td>
+</tr>
+
+<tr>
+<td>1587</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Platform: Windows</td>
+</tr>
+
+<tr>
+<td>1588</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Java version: 7</td>
+</tr>
+
+<tr>
+<td>1588</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noUnsafe: false</td>
+</tr>
+
+<tr>
+<td>1588</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">sun.misc.Unsafe: available</td>
+</tr>
+
+<tr>
+<td>1589</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noJavassist: false</td>
+</tr>
+
+<tr>
+<td>1590</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Javassist: unavailable</td>
+</tr>
+
+<tr>
+<td>1590</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.</td>
+</tr>
+
+<tr>
+<td>1590</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)</td>
+</tr>
+
+<tr>
+<td>1590</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.bitMode: 64 (sun.arch.data.model)</td>
+</tr>
+
+<tr>
+<td>1590</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noPreferDirect: false</td>
+</tr>
+
+<tr>
+<td>1613</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.util.ClassSize category">org.apache.hadoop.hbase.util.ClassSize</td>
+<td title="Message">Using Unsafe to estimate memory layout</td>
+</tr>
+
+<tr>
+<td>1620</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.ipc.AbstractRpcClient category">org.apache.hadoop.hbase.ipc.AbstractRpcClient</td>
+<td title="Message">Codec=org.apache.hadoop.hbase.codec.KeyValueCodec@a119478, compressor=null, tcpKeepAlive=true, tcpNoDelay=true, connectTO=10000, readTO=20000, writeTO=60000, minIdleTimeBeforeClose=120000, maxRetries=0, fallbackAllowed=false, bind address=null</td>
+</tr>
+
+<tr>
+<td>1676</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b73000d, packet:: clientPath:null serverPath:null finished:false header:: 3,4  replyHeader:: 3,456,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a3136323031ffffffc13c38ffffff9dffffffb45bffffff974b50425546a18ac36326631363966386439643110ffffffc97e18ffffffafffffffa8ffffff82ffffff96fffffff62c100183,s{402,402,1543550077824,1543550077824,0,0,0,0,65,0,402} </td>
+</tr>
+
+<tr>
+<td>1695</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b73000d, packet:: clientPath:null serverPath:null finished:false header:: 4,8  replyHeader:: 4,456,0  request:: '/hbase,F  response:: v{'replication,'meta-region-server,'rs,'splitWAL,'backup-masters,'table-lock,'flush-table-proc,'master-maintenance,'region-in-transition,'online-snapshot,'switch,'master,'running,'recovering-regions,'draining,'namespace,'hbaseid,'table} </td>
+</tr>
+
+<tr>
+<td>1901</td>
+<td title="htable-pool3-t1 thread">htable-pool3-t1</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.ipc.RpcConnection category">org.apache.hadoop.hbase.ipc.RpcConnection</td>
+<td title="Message">Use SIMPLE authentication for service ClientService, sasl=false</td>
+</tr>
+
+<tr>
+<td>1933</td>
+<td title="htable-pool3-t1 thread">htable-pool3-t1</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.ipc.BlockingRpcConnection category">org.apache.hadoop.hbase.ipc.BlockingRpcConnection</td>
+<td title="Message">Connecting to 62f169f8d9d1/202.204.62.145:16201</td>
+</tr>
+
+<tr>
+<td>2197</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b73000d, packet:: clientPath:null serverPath:null finished:false header:: 5,3  replyHeader:: 5,456,0  request:: '/hbase,F  response:: s{3,3,1543389415294,1543389415294,0,62,0,0,0,18,402} </td>
+</tr>
+
+<tr>
+<td>2207</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b73000d, packet:: clientPath:null serverPath:null finished:false header:: 6,4  replyHeader:: 6,456,0  request:: '/hbase/master,F  response:: #ffffffff000146d61737465723a3136303030ffffffd4ffffffe533ffffffa8ffffffe9ffffffabfffffffb4750425546a18ac36326631363966386439643110ffffff807d18ffffff94ffffffa1ffffff82ffffff96fffffff62c10018ffffff8a7d,s{385,385,1543550049806,1543550049806,0,0,0,101158095751938048,60,0,385} </td>
+</tr>
+
+<tr>
+<td>2217</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.ipc.RpcConnection category">org.apache.hadoop.hbase.ipc.RpcConnection</td>
+<td title="Message">Use SIMPLE authentication for service MasterService, sasl=false</td>
+</tr>
+
+<tr>
+<td>2217</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.ipc.BlockingRpcConnection category">org.apache.hadoop.hbase.ipc.BlockingRpcConnection</td>
+<td title="Message">Connecting to 62f169f8d9d1/202.204.62.145:16000</td>
+</tr>
+
+<tr>
+<td>4623</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.hadoop.hbase.client.HBaseAdmin category">org.apache.hadoop.hbase.client.HBaseAdmin</td>
+<td title="Message">Created employees</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Fri Nov 30 18:24:52 CST 2018<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.Groups category">org.apache.hadoop.security.Groups</td>
+<td title="Message"> Creating new Groups object</td>
+</tr>
+
+<tr>
+<td>33</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.util.NativeCodeLoader category">org.apache.hadoop.util.NativeCodeLoader</td>
+<td title="Message">Trying to load the custom-built native-hadoop library...</td>
+</tr>
+
+<tr>
+<td>38</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.util.NativeCodeLoader category">org.apache.hadoop.util.NativeCodeLoader</td>
+<td title="Message">Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path</td>
+</tr>
+
+<tr>
+<td>38</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.util.NativeCodeLoader category">org.apache.hadoop.util.NativeCodeLoader</td>
+<td title="Message">java.library.path=C:\Program Files\Java\jdk1.7.0_17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/lib/amd64;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jdk1.7.0_17\bin;C:\Program Files\Java\jdk1.7.0_17\jre\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\MATLAB\R2012b\runtime\win64;C:\Program Files\MATLAB\R2012b\bin;C:\Program Files\nodejs\;C:\Program Files\NOX\Nox\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\Users\admin\Anaconda3\Library\bin;C:\Program Files (x86)\WinSCP\;E:\hadoop-2.7.7;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\admin\AppData\Roaming\npm;C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\;;C:\Program Files\Docker Toolbox;C:\Program Files\Java\eclipse;;.</td>
+</tr>
+
+<tr>
+<td>39</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>WARN</strong></font></td>
+<td title="org.apache.hadoop.util.NativeCodeLoader category">org.apache.hadoop.util.NativeCodeLoader</td>
+<td title="Message">Unable to load native-hadoop library for your platform... using builtin-java classes where applicable</td>
+</tr>
+
+<tr>
+<td>52</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.util.PerformanceAdvisory category">org.apache.hadoop.util.PerformanceAdvisory</td>
+<td title="Message">Falling back to shell based</td>
+</tr>
+
+<tr>
+<td>52</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback category">org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback</td>
+<td title="Message">Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping</td>
+</tr>
+
+<tr>
+<td>166</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.Groups category">org.apache.hadoop.security.Groups</td>
+<td title="Message">Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000</td>
+</tr>
+
+<tr>
+<td>310</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.metrics2.lib.MutableMetricsFactory category">org.apache.hadoop.metrics2.lib.MutableMetricsFactory</td>
+<td title="Message">field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of successful kerberos logins and latency (milliseconds)], always=false, type=DEFAULT, sampleName=Ops)</td>
+</tr>
+
+<tr>
+<td>322</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.metrics2.lib.MutableMetricsFactory category">org.apache.hadoop.metrics2.lib.MutableMetricsFactory</td>
+<td title="Message">field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of failed kerberos logins and latency (milliseconds)], always=false, type=DEFAULT, sampleName=Ops)</td>
+</tr>
+
+<tr>
+<td>323</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.metrics2.lib.MutableMetricsFactory category">org.apache.hadoop.metrics2.lib.MutableMetricsFactory</td>
+<td title="Message">field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[GetGroups], always=false, type=DEFAULT, sampleName=Ops)</td>
+</tr>
+
+<tr>
+<td>324</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.metrics2.impl.MetricsSystemImpl category">org.apache.hadoop.metrics2.impl.MetricsSystemImpl</td>
+<td title="Message">UgiMetrics, User and group related metrics</td>
+</tr>
+
+<tr>
+<td>9501</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.authentication.util.KerberosName category">org.apache.hadoop.security.authentication.util.KerberosName</td>
+<td title="Message">Kerberos krb5 configuration not found, setting default realm to empty</td>
+</tr>
+
+<tr>
+<td>9519</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">hadoop login</td>
+</tr>
+
+<tr>
+<td>9521</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">hadoop login commit</td>
+</tr>
+
+<tr>
+<td>9535</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">using local user:NTUserPrincipal: admin</td>
+</tr>
+
+<tr>
+<td>9535</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">Using user: &quot;NTUserPrincipal: admin&quot; with name admin</td>
+</tr>
+
+<tr>
+<td>9535</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">User entry: &quot;admin&quot;</td>
+</tr>
+
+<tr>
+<td>9536</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">Assuming keytab is managed externally since logged in from subject.</td>
+</tr>
+
+<tr>
+<td>9537</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.security.UserGroupInformation category">org.apache.hadoop.security.UserGroupInformation</td>
+<td title="Message">UGI loginUser:admin (auth:SIMPLE)</td>
+</tr>
+
+<tr>
+<td>9870</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper category">org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper</td>
+<td title="Message">Process identifier=hconnection-0x33c5e45b connecting to ZooKeeper ensemble=62f169f8d9d1:2181</td>
+</tr>
+
+<tr>
+<td>18883</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT</td>
+</tr>
+
+<tr>
+<td>18884</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:host.name=DESKTOP-LNH6VC9</td>
+</tr>
+
+<tr>
+<td>18884</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.version=1.7.0_17</td>
+</tr>
+
+<tr>
+<td>18884</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.vendor=Oracle Corporation</td>
+</tr>
+
+<tr>
+<td>18884</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.home=C:\Program Files\Java\jdk1.7.0_17\jre</td>
+</tr>
+
+<tr>
+<td>18884</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.class.path=E:\JavaProjects\HBaseTest\bin;E:\hadoop-2.7.7\share\hadoop\yarn\lib\zookeeper-3.4.6.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\zookeeper-3.4.6-tests.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\xz-1.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\stax-api-1.0-2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\servlet-api-2.5.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\protobuf-java-2.5.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\netty-3.6.2.Final.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\log4j-1.2.17.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\leveldbjni-all-1.8.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jsr305-3.0.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jetty-util-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jetty-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jettison-1.1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-server-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-json-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-guice-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-core-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jersey-client-1.9.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jaxb-impl-2.2.3-1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jaxb-api-2.2.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\javax.inject-1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jackson-xc-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jackson-mapper-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jackson-jaxrs-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\jackson-core-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\guice-servlet-3.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\guice-3.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\guava-11.0.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-logging-1.1.3.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-lang-2.6.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-io-2.4.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-compress-1.4.1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-collections-3.2.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-codec-1.4.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\commons-cli-1.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\asm-3.2.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\aopalliance-1.0.jar;E:\hadoop-2.7.7\share\hadoop\yarn\lib\activation-1.1.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-web-proxy-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-sharedcachemanager-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-resourcemanager-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-nodemanager-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-common-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-server-applicationhistoryservice-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-registry-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-common-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-client-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-applications-unmanaged-am-launcher-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-applications-distributedshell-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\yarn\hadoop-yarn-api-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\xmlenc-0.52.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\xml-apis-1.3.04.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\xercesImpl-2.9.1.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\servlet-api-2.5.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\protobuf-java-2.5.0.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\netty-all-4.0.23.Final.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\netty-3.6.2.Final.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\log4j-1.2.17.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\leveldbjni-all-1.8.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jsr305-3.0.0.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jetty-util-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jetty-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jersey-server-1.9.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jersey-core-1.9.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jackson-mapper-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\jackson-core-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\htrace-core-3.1.0-incubating.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\guava-11.0.2.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-logging-1.1.3.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-lang-2.6.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-io-2.4.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-daemon-1.0.13.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-codec-1.4.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\commons-cli-1.2.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\lib\asm-3.2.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\hadoop-hdfs-nfs-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\hdfs\hadoop-hdfs-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\xz-1.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\snappy-java-1.0.4.1.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\protobuf-java-2.5.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\paranamer-2.3.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\netty-3.6.2.Final.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\log4j-1.2.17.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\leveldbjni-all-1.8.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\junit-4.11.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jersey-server-1.9.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jersey-guice-1.9.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jersey-core-1.9.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\javax.inject-1.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jackson-mapper-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\jackson-core-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\hamcrest-core-1.3.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\hadoop-annotations-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\guice-servlet-3.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\guice-3.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\commons-io-2.4.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\commons-compress-1.4.1.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\avro-1.7.4.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\asm-3.2.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\lib\aopalliance-1.0.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-shuffle-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-jobclient-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-hs-plugins-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-hs-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-core-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-common-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\mapreduce\hadoop-mapreduce-client-app-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\zookeeper-3.4.6.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\xz-1.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\xmlenc-0.52.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\stax-api-1.0-2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\snappy-java-1.0.4.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\slf4j-log4j12-1.7.10.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\slf4j-api-1.7.10.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\servlet-api-2.5.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\protobuf-java-2.5.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\paranamer-2.3.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\netty-3.6.2.Final.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\mockito-all-1.8.5.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\log4j-1.2.17.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\junit-4.11.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jsr305-3.0.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jsp-api-2.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jsch-0.1.54.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jetty-util-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jetty-sslengine-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jetty-6.1.26.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jettison-1.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jets3t-0.9.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jersey-server-1.9.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jersey-json-1.9.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jersey-core-1.9.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jaxb-impl-2.2.3-1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jaxb-api-2.2.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\java-xmlbuilder-0.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jackson-xc-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jackson-mapper-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jackson-jaxrs-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\jackson-core-asl-1.9.13.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\httpcore-4.2.5.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\httpclient-4.2.5.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\htrace-core-3.1.0-incubating.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\hamcrest-core-1.3.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\hadoop-auth-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\hadoop-annotations-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\guava-11.0.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\gson-2.2.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\curator-recipes-2.7.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\curator-framework-2.7.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\curator-client-2.7.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-net-3.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-math3-3.1.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-logging-1.1.3.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-lang-2.6.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-io-2.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-httpclient-3.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-digester-1.8.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-configuration-1.6.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-compress-1.4.1.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-collections-3.2.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-codec-1.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-cli-1.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-beanutils-core-1.8.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\commons-beanutils-1.7.0.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\avro-1.7.4.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\asm-3.2.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\api-util-1.0.0-M20.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\api-asn1-api-1.0.0-M20.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\apacheds-kerberos-codec-2.0.0-M15.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\apacheds-i18n-2.0.0-M15.jar;E:\hadoop-2.7.7\share\hadoop\common\lib\activation-1.1.jar;E:\hadoop-2.7.7\share\hadoop\common\hadoop-nfs-2.7.7.jar;E:\hadoop-2.7.7\share\hadoop\common\hadoop-common-2.7.7.jar;E:\hbase-1.4.8\lib\activation-1.1.jar;E:\hbase-1.4.8\lib\apacheds-i18n-2.0.0-M15.jar;E:\hbase-1.4.8\lib\apacheds-kerberos-codec-2.0.0-M15.jar;E:\hbase-1.4.8\lib\api-asn1-api-1.0.0-M20.jar;E:\hbase-1.4.8\lib\api-util-1.0.0-M20.jar;E:\hbase-1.4.8\lib\asm-3.1.jar;E:\hbase-1.4.8\lib\avro-1.7.7.jar;E:\hbase-1.4.8\lib\commons-beanutils-1.7.0.jar;E:\hbase-1.4.8\lib\commons-beanutils-core-1.8.0.jar;E:\hbase-1.4.8\lib\commons-cli-1.2.jar;E:\hbase-1.4.8\lib\commons-codec-1.9.jar;E:\hbase-1.4.8\lib\commons-collections-3.2.2.jar;E:\hbase-1.4.8\lib\commons-compress-1.4.1.jar;E:\hbase-1.4.8\lib\commons-configuration-1.6.jar;E:\hbase-1.4.8\lib\commons-daemon-1.0.13.jar;E:\hbase-1.4.8\lib\commons-digester-1.8.jar;E:\hbase-1.4.8\lib\commons-el-1.0.jar;E:\hbase-1.4.8\lib\commons-httpclient-3.1.jar;E:\hbase-1.4.8\lib\commons-io-2.4.jar;E:\hbase-1.4.8\lib\commons-lang-2.6.jar;E:\hbase-1.4.8\lib\commons-logging-1.2.jar;E:\hbase-1.4.8\lib\commons-math-2.2.jar;E:\hbase-1.4.8\lib\commons-math3-3.1.1.jar;E:\hbase-1.4.8\lib\commons-net-3.1.jar;E:\hbase-1.4.8\lib\curator-client-2.7.1.jar;E:\hbase-1.4.8\lib\curator-framework-2.7.1.jar;E:\hbase-1.4.8\lib\curator-recipes-2.7.1.jar;E:\hbase-1.4.8\lib\disruptor-3.3.0.jar;E:\hbase-1.4.8\lib\findbugs-annotations-1.3.9-1.jar;E:\hbase-1.4.8\lib\gson-2.2.4.jar;E:\hbase-1.4.8\lib\guava-12.0.1.jar;E:\hbase-1.4.8\lib\hadoop-annotations-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-auth-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-client-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-common-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-hdfs-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-app-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-common-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-core-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-jobclient-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-mapreduce-client-shuffle-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-yarn-api-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-yarn-client-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-yarn-common-2.7.4.jar;E:\hbase-1.4.8\lib\hadoop-yarn-server-common-2.7.4.jar;E:\hbase-1.4.8\lib\hbase-annotations-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-annotations-1.4.8-tests.jar;E:\hbase-1.4.8\lib\hbase-client-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-common-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-common-1.4.8-tests.jar;E:\hbase-1.4.8\lib\hbase-examples-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-external-blockcache-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-hadoop2-compat-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-hadoop-compat-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-it-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-it-1.4.8-tests.jar;E:\hbase-1.4.8\lib\hbase-metrics-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-metrics-api-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-prefix-tree-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-procedure-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-protocol-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-resource-bundle-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-rest-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-rsgroup-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-server-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-server-1.4.8-tests.jar;E:\hbase-1.4.8\lib\hbase-shell-1.4.8.jar;E:\hbase-1.4.8\lib\hbase-thrift-1.4.8.jar;E:\hbase-1.4.8\lib\htrace-core-3.1.0-incubating.jar;E:\hbase-1.4.8\lib\httpclient-4.5.2.jar;E:\hbase-1.4.8\lib\httpcore-4.4.4.jar;E:\hbase-1.4.8\lib\jackson-core-asl-1.9.13.jar;E:\hbase-1.4.8\lib\jackson-jaxrs-1.9.13.jar;E:\hbase-1.4.8\lib\jackson-mapper-asl-1.9.13.jar;E:\hbase-1.4.8\lib\jackson-xc-1.9.13.jar;E:\hbase-1.4.8\lib\jamon-runtime-2.4.1.jar;E:\hbase-1.4.8\lib\jasper-compiler-5.5.23.jar;E:\hbase-1.4.8\lib\jasper-runtime-5.5.23.jar;E:\hbase-1.4.8\lib\jaxb-api-2.2.2.jar;E:\hbase-1.4.8\lib\jaxb-impl-2.2.3-1.jar;E:\hbase-1.4.8\lib\jcodings-1.0.8.jar;E:\hbase-1.4.8\lib\jersey-client-1.9.jar;E:\hbase-1.4.8\lib\jersey-core-1.9.jar;E:\hbase-1.4.8\lib\jersey-json-1.9.jar;E:\hbase-1.4.8\lib\jersey-server-1.9.jar;E:\hbase-1.4.8\lib\jettison-1.3.3.jar;E:\hbase-1.4.8\lib\jetty-6.1.26.jar;E:\hbase-1.4.8\lib\jetty-sslengine-6.1.26.jar;E:\hbase-1.4.8\lib\jetty-util-6.1.26.jar;E:\hbase-1.4.8\lib\joni-2.1.2.jar;E:\hbase-1.4.8\lib\jruby-complete-1.6.8.jar;E:\hbase-1.4.8\lib\jsch-0.1.54.jar;E:\hbase-1.4.8\lib\jsp-2.1-6.1.14.jar;E:\hbase-1.4.8\lib\jsp-api-2.1-6.1.14.jar;E:\hbase-1.4.8\lib\junit-4.12.jar;E:\hbase-1.4.8\lib\leveldbjni-all-1.8.jar;E:\hbase-1.4.8\lib\libthrift-0.9.3.jar;E:\hbase-1.4.8\lib\log4j-1.2.17.jar;E:\hbase-1.4.8\lib\metrics-core-2.2.0.jar;E:\hbase-1.4.8\lib\metrics-core-3.1.2.jar;E:\hbase-1.4.8\lib\netty-all-4.1.8.Final.jar;E:\hbase-1.4.8\lib\paranamer-2.3.jar;E:\hbase-1.4.8\lib\protobuf-java-2.5.0.jar;E:\hbase-1.4.8\lib\servlet-api-2.5-6.1.14.jar;E:\hbase-1.4.8\lib\slf4j-api-1.7.7.jar;E:\hbase-1.4.8\lib\slf4j-log4j12-1.7.10.jar;E:\hbase-1.4.8\lib\snappy-java-1.0.5.jar;E:\hbase-1.4.8\lib\spymemcached-2.11.6.jar;E:\hbase-1.4.8\lib\xmlenc-0.52.jar;E:\hbase-1.4.8\lib\xz-1.0.jar;E:\hbase-1.4.8\lib\zookeeper-3.4.10.jar</td>
+</tr>
+
+<tr>
+<td>18886</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.library.path=C:\Program Files\Java\jdk1.7.0_17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_17/bin/../jre/lib/amd64;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jdk1.7.0_17\bin;C:\Program Files\Java\jdk1.7.0_17\jre\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\MATLAB\R2012b\runtime\win64;C:\Program Files\MATLAB\R2012b\bin;C:\Program Files\nodejs\;C:\Program Files\NOX\Nox\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\Users\admin\Anaconda3\Library\bin;C:\Program Files (x86)\WinSCP\;E:\hadoop-2.7.7;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\admin\AppData\Roaming\npm;C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\;;C:\Program Files\Docker Toolbox;C:\Program Files\Java\eclipse;;.</td>
+</tr>
+
+<tr>
+<td>18886</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.io.tmpdir=C:\Users\admin\AppData\Local\Temp\</td>
+</tr>
+
+<tr>
+<td>18886</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:java.compiler=&lt;NA&gt;</td>
+</tr>
+
+<tr>
+<td>18886</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:os.name=Windows 8</td>
+</tr>
+
+<tr>
+<td>18887</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:os.arch=amd64</td>
+</tr>
+
+<tr>
+<td>18887</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:os.version=6.2</td>
+</tr>
+
+<tr>
+<td>18887</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:user.name=admin</td>
+</tr>
+
+<tr>
+<td>18887</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:user.home=C:\Users\admin</td>
+</tr>
+
+<tr>
+<td>18887</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Client environment:user.dir=E:\JavaProjects\HBaseTest</td>
+</tr>
+
+<tr>
+<td>18889</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ZooKeeper category">org.apache.zookeeper.ZooKeeper</td>
+<td title="Message">Initiating client connection, connectString=62f169f8d9d1:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@5d6b2d99</td>
+</tr>
+
+<tr>
+<td>18899</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">zookeeper.disableAutoWatchReset is false</td>
+</tr>
+
+<tr>
+<td>18959</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Opening socket connection to server 62f169f8d9d1/202.204.62.145:2181. Will not attempt to authenticate using SASL (unknown error)</td>
+</tr>
+
+<tr>
+<td>18974</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Socket connection established to 62f169f8d9d1/202.204.62.145:2181, initiating session</td>
+</tr>
+
+<tr>
+<td>18975</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Session establishment request sent on 62f169f8d9d1/202.204.62.145:2181</td>
+</tr>
+
+<tr>
+<td>19002</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level">INFO</td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Session establishment complete on server 62f169f8d9d1/202.204.62.145:2181, sessionid = 0x16762c08b73000f, negotiated timeout = 90000</td>
+</tr>
+
+<tr>
+<td>19003</td>
+<td title="main-EventThread thread">main-EventThread</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher category">org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher</td>
+<td title="Message">hconnection-0x33c5e45b0x0, quorum=62f169f8d9d1:2181, baseZNode=/hbase Received ZooKeeper Event, type=None, state=SyncConnected, path=null</td>
+</tr>
+
+<tr>
+<td>19005</td>
+<td title="main-EventThread thread">main-EventThread</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher category">org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher</td>
+<td title="Message">hconnection-0x33c5e45b-0x16762c08b73000f connected</td>
+</tr>
+
+<tr>
+<td>19013</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b73000f, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,472,0  request:: '/hbase/hbaseid,F  response:: s{178,388,1543401801703,1543550052146,3,0,0,0,67,0,178} </td>
+</tr>
+
+<tr>
+<td>19026</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b73000f, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,472,0  request:: '/hbase/hbaseid,F  response:: #ffffffff000146d61737465723a31363030306553531fffffffc03effffffb7ffffffd850425546a2466663139313336612d343865312d346633302d623837342d643163313031383762373464,s{178,388,1543401801703,1543550052146,3,0,0,0,67,0,178} </td>
+</tr>
+
+<tr>
+<td>19466</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.logging.InternalLoggerFactory category">io.netty.util.internal.logging.InternalLoggerFactory</td>
+<td title="Message">Using SLF4J as the default logging framework</td>
+</tr>
+
+<tr>
+<td>19471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.ResourceLeakDetector category">io.netty.util.ResourceLeakDetector</td>
+<td title="Message">-Dio.netty.leakDetectionLevel: simple</td>
+</tr>
+
+<tr>
+<td>19477</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Buffer.address: available</td>
+</tr>
+
+<tr>
+<td>19477</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.theUnsafe: available</td>
+</tr>
+
+<tr>
+<td>19478</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">sun.misc.Unsafe.copyMemory: available</td>
+</tr>
+
+<tr>
+<td>19478</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent0 category">io.netty.util.internal.PlatformDependent0</td>
+<td title="Message">java.nio.Bits.unaligned: true</td>
+</tr>
+
+<tr>
+<td>19478</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Platform: Windows</td>
+</tr>
+
+<tr>
+<td>19479</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Java version: 7</td>
+</tr>
+
+<tr>
+<td>19479</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noUnsafe: false</td>
+</tr>
+
+<tr>
+<td>19479</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">sun.misc.Unsafe: available</td>
+</tr>
+
+<tr>
+<td>19479</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noJavassist: false</td>
+</tr>
+
+<tr>
+<td>19481</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">Javassist: unavailable</td>
+</tr>
+
+<tr>
+<td>19481</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.</td>
+</tr>
+
+<tr>
+<td>19481</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)</td>
+</tr>
+
+<tr>
+<td>19481</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.bitMode: 64 (sun.arch.data.model)</td>
+</tr>
+
+<tr>
+<td>19482</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="io.netty.util.internal.PlatformDependent category">io.netty.util.internal.PlatformDependent</td>
+<td title="Message">-Dio.netty.noPreferDirect: false</td>
+</tr>
+
+<tr>
+<td>19511</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.util.ClassSize category">org.apache.hadoop.hbase.util.ClassSize</td>
+<td title="Message">Using Unsafe to estimate memory layout</td>
+</tr>
+
+<tr>
+<td>19522</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.ipc.AbstractRpcClient category">org.apache.hadoop.hbase.ipc.AbstractRpcClient</td>
+<td title="Message">Codec=org.apache.hadoop.hbase.codec.KeyValueCodec@3b5d0d58, compressor=null, tcpKeepAlive=true, tcpNoDelay=true, connectTO=10000, readTO=20000, writeTO=60000, minIdleTimeBeforeClose=120000, maxRetries=0, fallbackAllowed=false, bind address=null</td>
+</tr>
+
+<tr>
+<td>28632</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b73000f, packet:: clientPath:null serverPath:null finished:false header:: 3,4  replyHeader:: 3,472,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a3136323031ffffffc13c38ffffff9dffffffb45bffffff974b50425546a18ac36326631363966386439643110ffffffc97e18ffffffafffffffa8ffffff82ffffff96fffffff62c100183,s{402,402,1543550077824,1543550077824,0,0,0,0,65,0,402} </td>
+</tr>
+
+<tr>
+<td>28672</td>
+<td title="main-SendThread(62f169f8d9d1:2181) thread">main-SendThread(62f169f8d9d1:2181)</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.zookeeper.ClientCnxn category">org.apache.zookeeper.ClientCnxn</td>
+<td title="Message">Reading reply sessionid:0x16762c08b73000f, packet:: clientPath:null serverPath:null finished:false header:: 4,8  replyHeader:: 4,472,0  request:: '/hbase,F  response:: v{'replication,'meta-region-server,'rs,'splitWAL,'backup-masters,'table-lock,'flush-table-proc,'master-maintenance,'region-in-transition,'online-snapshot,'switch,'master,'running,'recovering-regions,'draining,'namespace,'hbaseid,'table} </td>
+</tr>
+
+<tr>
+<td>28906</td>
+<td title="htable-pool3-t1 thread">htable-pool3-t1</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.ipc.RpcConnection category">org.apache.hadoop.hbase.ipc.RpcConnection</td>
+<td title="Message">Use SIMPLE authentication for service ClientService, sasl=false</td>
+</tr>
+
+<tr>
+<td>28936</td>
+<td title="htable-pool3-t1 thread">htable-pool3-t1</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.hadoop.hbase.ipc.BlockingRpcConnection category">org.apache.hadoop.hbase.ipc.BlockingRpcConnection</td>
+<td title="Message">Connecting to 62f169f8d9d1/202.204.62.145:16201</td>
+</tr>
